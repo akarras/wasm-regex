@@ -14,7 +14,7 @@ none = []
 
 [dependencies]
 wasm-bindgen = "0.2.70"
-regex = {default-features = false, features = ["unicode", "std"], version = "1"}
+regex = {default-features = false, features = ["unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "std"], version = "1"}
 
 [profile.release]
 opt-level = "z"
